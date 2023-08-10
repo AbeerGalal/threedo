@@ -1,0 +1,402 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bbbbbb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    
+    
+}
+.home .layout{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(0, 0, 0,.5);
+    top: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+
+}
+.home .head{
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(120deg,rgb(38, 37, 37) 60%,#8c00c4);
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    
+}
+.home .head img{
+    width: 200px;
+    padding-top: 10px;
+    margin: 10px;
+    margin-left: 20px;
+}
+.home .head ul {
+    list-style-type:none;
+    display: flex;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.home .head ul li{
+    margin: 10px;
+    padding: 10px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.home .head ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.home .head ul li a:hover{
+    font-size:20px ;
+    font-weight:bold;
+    
+}
+.home .head .logo{
+    width: 10%px;
+    display: flex;
+    margin-left: 80px;
+    margin-top: 10px;
+
+}
+.home .head .logo img{
+    width: 20px;
+}
+.home .head .logo .facebook:hover{
+    rotate: 360deg;
+    transition: all 1s;
+
+}
+.home .head .logo .instgram:hover{
+    rotate: 360deg;
+    transition: all 1s;
+}
+.home .head .logo .soundcloud:hover{
+    rotate: 360deg;
+    transition: all 1s;
+}
+.home .caption{
+    width: 50%;
+    height: 43%;
+    margin: 10%;
+    margin-left: 25%;
+    text-align: center;
+    margin-top: 23%;   
+}
+.home .caption h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: 40px;
+    margin-top: 210px;
+    text-shadow: 2px 2px 20px #805dff;
+}
+
+
+.home .caption button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    margin-top: 30px;
+    background-color:#0000;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 35px;
+    border-radius: 50px;
+    border: 2px solid white;
+    margin-right: 20px;
+}
+.home .caption button:hover{
+    background-color: #7f03b1;
+    border: 2px solid #3f1141;
+}
+.main{
+    background-image: url(background.jpg);
+    height: 130vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    
+    
+  
+}
+
+.main .about {
+    width: 50%;
+    height:70% ;
+    margin-left: 50px;
+    
+}
+
+.main .about h3 {
+    position: relative;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 40px;
+    padding-top: 20px;
+    margin-top: 7%;
+}
+.main .about h3::after{
+    content: "";
+    position: absolute;
+    width: 15%;
+    height: 2px;
+    background-color:rgb(146, 222, 146);
+    top: 70%;
+    margin-left: 13px;
+}
+.main .about .p1{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left:30px;
+    font:bold;
+    margin-bottom: 25px;
+
+}
+.main .about .p2{
+    color: aliceblue;
+    font-size: 29px;
+    font-weight: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.main .about h6{
+    color: aliceblue;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-style: italic;
+}
+.main .about ul {
+    list-style-type: none;
+    color: aliceblue;
+    font-size: 17px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main .about ul li{
+    padding: 6px;
+}
+.main .about button{
+    background-color: #7f03b1;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius:50px;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 8px 20px;
+    margin-top: 30px;
+    margin-left: 23px;
+    border: 2px solid #7f03b1;
+}
+.main .logo2 img{
+    margin-left: 7%;
+    width: 75%;
+    margin-top: 33%;
+}
+.main .logo2{
+    width: 50%;
+}
+.end{
+    background-color:rgb(38, 37, 37);
+    height: 365px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.end .footer1 {
+    width: 20%;
+    margin-left: 12%;
+    height: 60%;
+}
+.end .footer1 h3{
+    color: aliceblue;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left:12%;
+    margin-top: 40px;
+    
+}
+.end .footer1 .p1{
+    margin: 25px 5px;
+    font-size: 17px;
+    color: aliceblue;
+    
+    
+}
+.end .footer1 .email{
+    margin-top: 32px;
+    color: aliceblue;
+    font-size: 17x;
+}
+.end .footer2 {
+    
+    width: 30%;
+    text-align: center;
+    margin: 20px;
+  
+
+}
+.end .footer2 h3{
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    margin-top: 25px;
+
+}
+.end .footer2 a i{
+ margin-top: 10px;
+ margin: 2px;
+ margin-top: 20px;
+ border: 2px solid #7f03b1;
+ border-radius: 60%;
+ font-size: 15px;
+ background-color: #7f03b1;
+ color: aliceblue;
+ padding: 10px;
+ 
+}
+.end .footer3{
+    width: 40%;
+    
+}
+.end .footer3 h3{
+    color: aliceblue;
+    margin-top: 40px;
+    font-size: 25px;
+    margin-left: 30%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.end .footer3 .amit{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 40px;
+   
+}
+.end .footer3 .amit img{
+    width: 12%;
+}
+.end .footer3 .amit a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 7px;
+    margin-left: 15px;
+}
+.end .footer3 .ebda3{
+    display: flex;
+    
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.end .footer3 .ebda3 img {
+    width: 12%;
+}
+.end .footer3 .ebda3 a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 7px;
+    margin-left: 15px;
+}
+.home .head .bar{
+    display: none;
+}
+
+.home .head .bar i{
+    color: aliceblue;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 300px;
+}
+@media (max-width:600px){
+    .home .head ul
+    {display: none;
+    }
+    .home .head .bar{
+        display: block;
+    }
+    .home .caption h1{
+        font-size: 20px;
+        
+    }
+    .home .caption button{
+        font-size: 17px;
+        padding: 5px 10px;
+    }
+    .main {
+        display: block;
+        height: 220vh;
+    }
+    .main .about {
+
+      width: 100%;
+      margin-left: 0px;
+      height:55% ;
+    
+    }
+    .main .logo2 {
+        width: 100%;
+        height: 50%;
+    }
+    .main .logo2 img{
+        width: 90%;
+        margin-top: 0px;
+
+    }
+    .end{
+        display: block;
+        height: 40%;
+    }
+    .end .footer1{
+        width: 100%;
+        margin-left: 25%;
+    }
+    .end .footer2{
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .end .footer3 {
+        width: 100%;
+    }
+    .end .footer3 h3{
+        margin-right: 30%;
+        text-align: center;
+    }
+    .end .footer3 .amit{
+        width: 100%;
+        margin-right: 30%;
+    }
+    .end .footer3  .ebda3{
+        width: 100%;
+        margin-right: 30%;
+
+    }
+
+
+    
+
+    
+}
+
